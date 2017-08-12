@@ -1,0 +1,67 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #partio_de_mi_un_barco_llevandome;
+
+#{$projectName} {
+    & .content {
+        position: absolute;
+    	z-index: 1;
+    	top: 0px;
+    	bottom: 0px;
+    	left: 0;
+    	width: 100%;
+    	overflow: hidden;
+    }
+
+    & #scroller {
+        position: absolute;
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+
+        cursor: move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+    & #scroller:active {
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+    }
+    & .images{
+        width: 75%;
+    	max-width: 1320px;
+    	margin: 6vh auto 60px auto;
+    }
+    & .images img {
+        //height: 80vh;
+        //width: auto;
+        width: 100%;
+        height: auto;
+        max-width: 1320px;
+    	display: block;
+    	margin-bottom: 40vh;
+    }
+    & .images img:last-of-type {
+        margin-bottom: 5vh;
+    }
+}

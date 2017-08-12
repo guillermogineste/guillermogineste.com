@@ -1,0 +1,245 @@
+/* NAVIGATION */
+
+.navigation {
+  width: 410px;
+  height: 100vh;
+  position: fixed;
+  z-index: 500;
+  display: block;
+
+  font-size: 12px;
+  line-height: 14px;
+
+  background: #fff;
+
+  box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.30);
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+  // This class is added if the submenu is closed
+  &.submenu-is-closed {
+    width: 220px;
+    // submenu is closed and navigation collapsed
+    &.is-collapsed {
+      -webkit-transform: translate(-190px);
+      transform: translate(-190px);
+      @media (max-width: 800px) {
+        -webkit-transform: translate(calc(-100% + 30px));
+        transform: translate(calc(-100% + 30px));
+      }
+    }
+
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  // submenu is open and navigation collapsed
+  &.is-collapsed {
+    -webkit-transform: translate(-380px);
+    transform: translate(-380px);
+    @media (max-width: 800px) {
+      -webkit-transform: translate(calc(-100% + 30px));
+      transform: translate(calc(-100% + 30px));
+    }
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.primary-navigation,
+.secondary-navigation {
+  list-style: none;
+}
+.primary-navigation {
+  width: 190px;
+  padding-left: $vertical-spacing*2;
+  padding-top: $vertical-spacing*2;
+  height: 100vh;
+  background: #fff;
+
+  // background-image: linear-gradient(#eee .1em, transparent .1em);
+  // background-size: 100% $vertical-spacing;
+}
+.secondary-navigation {
+  position: absolute;
+  width: 190px;
+  left: 160px;
+  padding-left: 30px;
+  top: 0;
+}
+
+.menu-item {
+  position: relative;
+  width: 160px;
+  margin-bottom: 7px;
+  & a {
+    color: #888888;
+  }
+  & a:hover {
+    color: $primary-color;
+  }
+  &--is-last {
+    margin-bottom: $space-after-menu-item;
+  }
+  &--index {
+    margin-bottom: $space-after-menu-item * 2;
+    & a {
+      font-weight: 600;
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+  }
+  &--newsletter {
+    margin-top: $space-after-menu-item;
+  }
+  &.active > a {
+    color: $primary-color;
+    font-weight: 600;
+  }
+  &--has-children{
+    & > span {
+      padding-right: 10px;
+      /* White backgrounds hides the black line under */
+      background: #fff;
+      /* Position relative to create new z-index stack */
+      position: relative;
+      /* Z-index of one to avoid line going to bottom */
+      z-index: 1;
+      cursor: pointer;
+      font-weight: normal;
+      color: #888888;
+    }
+    // Hiddes submenu
+    & ul {
+      display: none;
+    }
+    // Line for OPEN items with children
+    & > span:after {
+      content: "";
+      display: inline-block;
+      position: relative;
+      top: 0px;
+      left: 4px;
+      width: 0px;
+      height: 0px;
+      z-index: 10;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-left: 4px solid #888888;
+      background: #fff;
+    }
+    &.active ul {
+      display: block;
+    }
+    &.active > span {
+      color: $primary-color;
+      font-weight: 600;
+    }
+    &.active > span:after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      display: block;
+      width: 180px;
+      z-index: -1;
+      height: 1px;
+      background: $primary-color;
+      color: $primary-color;
+      border: none;
+    }
+  }
+}
+
+// .menu-item a{
+//     color: #888888;
+// }
+// .menu-item a:hover {
+//     color: $primary-color;
+// }
+// .menu-item--is-last {
+//     margin-bottom: $space-after-menu-item;
+// }
+// .menu-item--index {
+//     margin-bottom: $space-after-menu-item * 2;
+// }
+// .menu-item--index a {
+//     font-weight: 600;
+//     color: $primary-color;
+//     text-transform: uppercase;
+// }
+// .menu-item--newsletter {
+//     margin-top: $space-after-menu-item;
+// }
+//
+// .menu-item.active > a {
+//     color: $primary-color;
+//     font-weight: 600;
+// }
+
+// .menu-item--has-children > span {
+//   padding-right: 10px;
+//   /* White backgrounds hides the black line under */
+//   background: #fff;
+//   /* Position relative to create new z-index stack */
+//   position: relative;
+//   /* Z-index of one to avoid line going to bottom */
+//   z-index: 1;
+//   cursor: pointer;
+//   font-weight: normal;
+//   color: #888888;
+// }
+
+/* Hiddes submenu */
+// .menu-item--has-children ul {
+//   display: none;
+// }
+
+/* Line for OPEN items with children */
+// .menu-item--has-children > span:after {
+//   content: "";
+//   display: inline-block;
+//   position: relative;
+//   top: 0px;
+//   left: 4px;
+//   width: 0px;
+//   height: 0px;
+//   z-index: 10;
+//   border-top: 3px solid transparent;
+//   border-bottom: 3px solid transparent;
+//   border-left: 4px solid #888888;
+//   background: #fff;
+// }
+
+// .menu-item--has-children.active ul {
+//   display: block;
+// }
+//
+// .menu-item--has-children.active > span {
+//   color: $primary-color;
+//   font-weight: 600;
+// }
+
+// .menu-item--has-children.active > span:after {
+//   content: "";
+//   position: absolute;
+//   top: 8px;
+//   display: block;
+//   width: 180px;
+//   z-index: -1;
+//   height: 1px;
+//   background: $primary-color;
+//   color: $primary-color;
+//   border: none;
+// }
+
+// .navigation.submenu-is-closed {
+//   width: 220px;
+// }
+// .navigation.submenu-is-closed.is-collapsed {
+//   -webkit-transform: translate(-190px);
+//   transform: translate(-190px);
+// }
+// .navigation.is-collapsed {
+//   -webkit-transform: translate(-380px);
+//   transform: translate(-380px);
+// }

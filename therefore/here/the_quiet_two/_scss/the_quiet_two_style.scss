@@ -1,0 +1,91 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #the_quiet_two;
+
+#{$projectName} {
+    & .content {
+        position: absolute;
+    	z-index: 1;
+    	top: 0px;
+    	bottom: 0px;
+    	left: 0;
+    	width: 100%;
+    	overflow: hidden;
+        padding-top: 5vh;
+    }
+    & #scroller {
+        position: absolute;
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+
+        cursor: move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+    & #scroller:active {
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+    }
+    & .video {
+        height: 647px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    & .comp_images {
+        width: 650px;
+        margin: 120px auto 0 auto;
+    }
+    & .images_container {
+        width: 100%;
+        padding: 20px 40px 40px 40px;
+        text-align: center;
+    }
+    & .image_wrapper {
+        display: inline-block;
+        margin-left: -4px;
+        margin: 40px;
+    }
+    & .images_set {
+        margin: 60px 0 200px 0;
+    }
+    & .images_set img {
+        height: 647;
+        width: 400;
+        display: block;
+    }
+    & .counter {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 40px
+    }
+    & table {
+        width: 240px;
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+    & td:nth-of-type(even) {
+        text-align: right;
+    }
+}

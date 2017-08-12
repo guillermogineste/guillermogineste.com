@@ -1,0 +1,18 @@
+{
+  "name": "guillermogineste.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "php-server": "php -S localhost:8000",
+    "build-css-art": "node-sass --output-style compressed --include-path scss ./therefore/_sass/main.scss ./therefore/css/main.css",
+    "watch-css-art": "nodemon -e scss -x \"npm run build-css-art\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
+  }
+}

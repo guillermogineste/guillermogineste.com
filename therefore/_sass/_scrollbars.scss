@@ -1,0 +1,104 @@
+/* Styled scrollbars */
+.iScrollVerticalScrollbar,
+.iScrollHorizontalScrollbar {
+    position: absolute;
+    background: #fff;
+    z-index: 9999;
+    overflow: hidden;
+}
+.iScrollVerticalScrollbar {
+    z-index: 400;
+    width: 12px;
+    bottom: 0px;
+    top: 0px;
+    right: 30px;
+
+    border-left: 1px solid #EFEFEF;
+}
+.iScrollHorizontalScrollbar {
+	position: absolute;
+	z-index: 400;
+	height: 12px;
+	left: 30px;
+	right: 30px;
+    bottom: 0;
+	overflow: hidden;
+
+    border-top: 1px solid #EFEFEF;
+}
+
+.iScrollHorizontalScrollbar.iScrollBothScrollbars {
+    background: #fff;
+	right: 42px;
+    left: 30px;
+
+}
+.iScrollVerticalScrollbar.iScrollBothScrollbars {
+	bottom: 0px;
+    right: 30px;
+}
+
+.iScrollIndicator {
+	position: absolute;
+    background: #ccc;
+}
+.iScrollIndicator:hover {
+    background: #aaa;
+}
+.iScrollIndicator:active {
+    background: #aaa;
+}
+
+
+.iScrollHorizontalScrollbar .iScrollIndicator {
+    width: 40px;
+	height: 100%;
+}
+
+.iScrollVerticalScrollbar .iScrollIndicator {
+    height: 40px;
+	width: 100%;
+}
+
+
+/* end */
+
+/* Styled scrollbars */
+/*
+.content > .iScrollVerticalScrollbar {
+    position: absolute;
+    background: #fff;
+    z-index: 9999;
+    width: 12px;
+    bottom: 0px;
+    top: 0px;
+    right: 30px;
+    overflow: hidden;
+    border-left: 1px solid #EFEFEF;
+
+    cursor: move;
+    cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+    cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.content > .iScrollVerticalScrollbar:active {
+    cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+    cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+
+.content > .iScrollVerticalScrollbar > .iScrollIndicator {
+    position: absolute;
+}
+
+.content > .iScrollVerticalScrollbar .iScrollIndicator {
+    height: 40px;
+    background: #ccc;
+} */
+
+
+/* end */

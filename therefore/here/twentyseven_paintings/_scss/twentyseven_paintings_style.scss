@@ -1,0 +1,64 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #twentyseven_paintings;
+
+#{$projectName} {
+    & .content {
+        position: absolute;
+    	z-index: 1;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	width: 100%;
+    	overflow: hidden;
+    }
+    & #scroller {
+    	position: absolute;
+    	z-index: 1;
+    	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    	width: 7400px;
+    	-webkit-transform: translateZ(0);
+    	-moz-transform: translateZ(0);
+    	-ms-transform: translateZ(0);
+    	-o-transform: translateZ(0);
+    	transform: translateZ(0);
+    	-webkit-touch-callout: none;
+    	-webkit-user-select: none;
+    	-moz-user-select: none;
+    	-ms-user-select: none;
+    	user-select: none;
+    	-webkit-text-size-adjust: none;
+    	-moz-text-size-adjust: none;
+    	-ms-text-size-adjust: none;
+    	-o-text-size-adjust: none;
+    	text-size-adjust: none;
+
+    	cursor: move;
+    	cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+    	cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+    	cursor: -moz-grab;
+    	cursor: -webkit-grab;
+    }
+    & #scroller:active {
+    	cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+    	cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+    	cursor: -moz-grabbing;
+    	cursor: -webkit-grabbing;
+    }
+    & .letter {
+    	width: 7400px;
+    	height: 500px;
+    	display: block;
+    	margin-top: 150px;
+    	margin-bottom: 150px;
+    	margin-left: 125px;
+    }
+    & .letter img {
+    	margin: 0 25px 0 25px;
+    	padding: 0;
+    	display: block;
+    	float: left;
+
+    	background-color: lightgray;
+    }
+}

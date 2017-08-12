@@ -1,0 +1,74 @@
+/* COLLAPSE */
+.collapse {
+   width: 30px;
+   height: 100vh;
+   position: absolute;
+
+   cursor: pointer;
+
+   display: block;
+}
+.collapse__icon,
+.collapse__icon:before,
+.collapse__icon:after {
+   width: 0px;
+   height: 0px;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+}
+.collapse__icon {
+   display: inline-block;
+   position: relative;
+   left: 0px;
+   top: calc(50vh - 16px);
+   left: 13px;
+}
+.collapse__icon:before,
+.collapse__icon:after {
+   content: "";
+   display: block;
+   position: absolute;
+   left: -5px;
+}
+.collapse__icon:before {
+   top: -16px;
+}
+.collapse__icon:after {
+   top: 8px;
+}
+
+/* Inside Navigation */
+.navigation--collapse {
+   right: 0;
+}
+.navigation .collapse__icon,
+.navigation .collapse__icon:before,
+.navigation .collapse__icon:after {
+   border-left: 5px solid #888;
+}
+.navigation .collapse:hover .collapse__icon,
+.navigation .collapse:hover .collapse__icon:after,
+.navigation .collapse:hover .collapse__icon:before {
+   border-left: 5px solid $primary-color;
+}
+/* Inside Aside */
+.aside--collapse {
+   left: 0;
+   /*display: none;*/
+}
+.aside .collapse__icon,
+.aside .collapse__icon:before,
+.aside .collapse__icon:after {
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 5px solid #888;
+}
+.aside .collapse:hover .collapse__icon,
+.aside .collapse:hover .collapse__icon:after,
+.aside .collapse:hover .collapse__icon:before {
+   border-right: 5px solid $primary-color;
+}
+.aside .collapse__icon:before,
+.aside .collapse__icon:after {
+   left: 0px;
+}

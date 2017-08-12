@@ -1,0 +1,85 @@
+/* compileCompressed: ../css/$1.css*/
+
+$projectName: #front_and_back;
+
+#{$projectName} {
+    & .content {
+        position: absolute;
+    	z-index: 1;
+    	top: 0px;
+    	bottom: 0px;
+    	left: 0;
+    	width: 100%;
+    	overflow: hidden;
+    }
+    & #scroller {
+        position: absolute;
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+
+        cursor: move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+    & #scroller:active {
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+    }
+    & .images {
+        width: 400px;
+        margin: 0 auto;
+        overflow: auto;
+    }
+    & section {
+        height: 65vh;
+
+    }
+    & .image_pair_container{
+        margin-top: 10vh;
+        position: relative;
+        height: 600px;
+        width: 400px;
+        -webkit-perspective: 400px;
+        perspective: 400px;
+    }
+    & .top {
+        display: block;
+        height: 300px;
+        width: 400px;
+        margin-top: 21px;
+        position: absolute;
+        -webkit-transform: rotateX(16deg) scale(0.90,0.90);
+        transform: rotateX(16deg) scale(0.90,0.90);
+    }
+    & .bottom {
+        display: block;
+        height: 300px;
+        width: 400px;
+        top:300px;
+        margin-top: -20px;
+        position: absolute;
+        -webkit-transform: rotateX(-16deg) scale(0.90,0.90);
+        transform: rotateX(-16deg) scale(0.90,0.90);
+    }
+}

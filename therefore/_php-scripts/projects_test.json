@@ -1,0 +1,169 @@
+{
+    "Guillermo Gineste": {
+        "Name": "Guillermo Gineste",
+        "name": "index",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Example One": {
+        "Name": "Example One",
+        "name": "example_one",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Example Two": {
+        "Name": "Example Two",
+        "name": "example_two",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Example Parent": {
+        "isParent": true,
+        "Name": "Parent Name",
+        "name": "parent_name",
+        "isPublic": true,
+        "isLastOfGroup": true,
+        "Example Three": {
+            "Name": "Example Three",
+            "name": "example_three",
+            "isPublic": false,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Example Four": {
+            "Name": "Example Four",
+            "name": "example_four",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Perspective Lessons": {
+        "isParent": true,
+        "Name": "Perspective Lessons",
+        "name": "perspective_lessons",
+        "isPublic": true,
+        "Upper Right Corner": {
+            "Name": "Upper Right Corner",
+            "name": "upper_right_corner",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Front and Back": {
+            "Name": "Front and Back",
+            "name": "front_and_back",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": true
+        },
+        "Two Lines Don\u2019t Converge": {
+            "Name": "Two Lines Don\u2019t Converge",
+            "name": "two_lines_dont_converge",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Diptych 01": {
+        "Name": "Diptych 01",
+        "name": "diptych_01",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Diptych 02": {
+        "Name": "Diptych 03",
+        "name": "diptych_03",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": true
+    },
+    "Boundary": {
+        "isParent": true,
+        "Name": "Boundary",
+        "name": "boundary",
+        "isPublic": true,
+        "isLastOfGroup": false,
+        "Composition I": {
+            "Name": "Composition I",
+            "name": "composition_i",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Composition II": {
+            "Name": "Composition II",
+            "name": "composition_ii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Composition III": {
+            "Name": "Composition III",
+            "name": "composition_iii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Nine Times and More": {
+        "Name": "Nine Times and More",
+        "name": "nine_times_and_more",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Vase of Flowers": {
+        "Name": "Vase of Flowers",
+        "name": "vase_of_flowers",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Nuevo Proyecto": {
+        "Name": "Nuevo Proyecto",
+        "name": "nuevo_proyecto",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Template": {
+        "Name": "Template",
+        "name": "_template",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Parent": {
+        "isParent": true,
+        "Name": "Parent",
+        "name": "parent",
+        "isPublic": true,
+        "isLastOfGroup": false,
+        "Composition I": {
+            "Name": "Template Parent",
+            "name": "_template_parent",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "A Parent Project": {
+        "Name": "A Parent Project",
+        "name": "a_parent_project",
+        "isPublic": false,
+        "isParent": true,
+        "isLastOfGroup": false,
+        "Another Project": {
+            "Name": "Another Project",
+            "name": "another_project",
+            "isPublic": false,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    }
+}

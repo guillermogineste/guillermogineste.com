@@ -1,0 +1,33 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #naked_in_paradise;
+
+#{$projectName} {
+    & {
+        height: 100%;
+        background: #C5C6CB;
+    }
+    & .content {
+        width: 75%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 10vh;
+    }
+    & .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    & .video {
+        & iframe, & object, & embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

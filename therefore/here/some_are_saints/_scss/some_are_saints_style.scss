@@ -1,0 +1,166 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #some_are_saints;
+
+#{$projectName} {
+    & .content {
+        position: absolute;
+    	z-index: 1;
+    	top: 0px;
+    	bottom: 0px;
+    	left: 0;
+    	width: 100%;
+    	overflow: hidden;
+        padding-top: 100px;
+    }
+    & #scroller {
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+
+        cursor: move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/openhand.cur) 8 8, move;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+    }
+
+    & #scroller:active {
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+        cursor: url(https://mail.google.com/mail/images/2/closedhand.cur) 8 8, move;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+    }
+    & .images-and-text {
+        width: 480px + 340px;
+        display: flex;
+	        margin: 0 auto;
+    }
+    & .images{
+    	width: 480px;
+    	margin: 20px auto 60px auto;
+        padding-right: 40px;
+        border-right: 1px dotted #dedede;
+    }
+    & .text {
+        width: 340px;
+        font-size: 13px;
+        padding: 40px 0 20px 40px;
+        line-height: 1.5;
+        color: gray;
+        font-family: 'Source Serif Pro', serif;
+    }
+    & .function {
+        width: 440px;
+        margin: 20px auto 60px auto;
+        padding-top: 20vh;
+        margin-bottom: 30vh;
+        text-align: center;
+    }
+    & .function h2 {
+        font-weight: normal;
+        margin-top: 30px;
+        font-size: 11px;
+        color: gray;
+    }
+    & .line:after, & .line:before, & .group:after, .group:before {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    & .line:after, & .group:after {
+        clear: both;
+    }
+    & .line {
+        width: 440px;
+        margin-bottom: 250px;
+    }
+    & .group {
+        width: 100%;
+        margin: 0 0 10px 0;
+        display: block;
+    }
+    & .line img{
+        height: 147px;
+        width: 110px;
+        float: left;
+
+        position: relative;
+    }
+    & .group:last-of-type {
+        margin-bottom: 0;
+    }
+    & .number {
+        width: 100%;
+        display: block;
+        height: 20px;
+        text-align: left;
+        font-size: 11px;
+        color: gray;
+    }
+    /* & .line,
+    & .group {
+        width: 100%;
+    }
+    & .line{
+        display: block;
+        padding: 10px 10px 0 10px;
+
+        margin: 20px 0px;
+        margin-bottom: 250px;
+        height: 608px;
+    }
+    & .group{
+        margin: 0 0 10px 0;
+
+        width: 440px;
+    }
+    & .group:last-of-type {
+        margin-bottom: 100px;
+    }
+    & .line img{
+        height: 147px;
+        width: 110px;
+        float: left;
+
+        position: relative;
+    } */
+    & .circle {
+        z-index: 20;
+    }
+
+    & .circle__outside {
+        height: 147px;
+        width: 110px;
+        float: left;
+        margin-left: -110px;
+        z-index: 10;
+        position: relative;
+    }
+
+    & .circle__outside__inside {
+        border:solid 2px gold;
+        height: 160px;
+        width: 160px;
+        margin-left: -25px;
+        margin-top: -30px;
+
+        border-radius: 80px;
+    }
+}

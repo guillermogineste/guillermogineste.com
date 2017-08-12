@@ -1,0 +1,33 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #did_she_walk_upright;
+
+#{$projectName} {
+    & {
+        height: 100%;
+        background: #CCD4BE;
+    }
+    & .content {
+        width: 75%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 10vh;
+    }
+    & .video {
+        position: relative;
+        padding-bottom: 37.5%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    & .video {
+        & iframe, & object, & embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

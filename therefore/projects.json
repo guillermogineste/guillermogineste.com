@@ -1,0 +1,254 @@
+{
+    "Guillermo Gineste": {
+        "Name": "Guillermo Gineste",
+        "name": "index",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Newsletter": {
+        "Name": "Newsletter",
+        "name": "newsletter",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Perspective Lessons": {
+        "Name": "Perspective Lessons",
+        "name": "perspective_lessons",
+        "isPublic": true,
+        "isParent": true,
+        "isLastOfGroup": true,
+        "Two Lines Don't Converge": {
+            "Name": "Two Lines Don't Converge",
+            "name": "two_lines_dont_converge",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Front And Back": {
+            "Name": "Front And Back",
+            "name": "front_and_back",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "It is right here I": {
+            "Name": "It is right here I",
+            "name": "it_is_right_here_i",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "It is right here II": {
+            "Name": "It is right here II",
+            "name": "it_is_right_here_ii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Did she walk upright?": {
+        "Name": "Did she walk upright?",
+        "name": "did_she_walk_upright",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "The present moment of a thousand small things": {
+        "Name": "The present moment of a thousand small things",
+        "name": "the_present_moment_of_a_thousand_small_things",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "The Quiet Two": {
+        "Name": "The Quiet Two",
+        "name": "the_quiet_two",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Diptychs": {
+        "Name": "Diptychs",
+        "name": "diptychs",
+        "isPublic": true,
+        "isParent": true,
+        "isLastOfGroup": false,
+        "Diptych 01": {
+            "Name": "Diptych 01",
+            "name": "diptych_01",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Diptych 02": {
+            "Name": "Diptych 02",
+            "name": "diptych_02",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Diptych 03": {
+            "Name": "Diptych 03",
+            "name": "diptych_03",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Boundary": {
+        "Name": "Boundary",
+        "name": "boundary",
+        "isPublic": true,
+        "isParent": true,
+        "isLastOfGroup": false,
+        "Composition I": {
+            "Name": "Composition I",
+            "name": "composition_i",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Composition II": {
+            "Name": "Composition II",
+            "name": "composition_ii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Composition III": {
+            "Name": "Composition III",
+            "name": "composition_iii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    },
+    "Head Guts Feet": {
+        "Name": "Head Guts Feet",
+        "name": "head_guts_feet",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Wasting my time": {
+        "Name": "Wasting my time",
+        "name": "wasting_my_time",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "La favorite du voyeur": {
+        "Name": "La favorite du voyeur",
+        "name": "la_favorite_du_voyeur",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": true
+    },
+    "R from: Light": {
+        "Name": "R from: Light",
+        "name": "r_from_light",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Some Are Saints": {
+        "Name": "Some Are Saints",
+        "name": "some_are_saints",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": true
+    },
+    "Nine Times and More": {
+        "Name": "Nine Times and More",
+        "name": "nine_times_and_more",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Vase of Flowers": {
+        "Name": "Vase of Flowers",
+        "name": "vase_of_flowers",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Twenty-Seven Paintings": {
+        "Name": "Twenty-Seven Paintings",
+        "name": "twentyseven_paintings",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Naked in Paradise": {
+        "Name": "Naked in Paradise",
+        "name": "naked_in_paradise",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Fragments On An Image": {
+        "Name": "Fragments On An Image",
+        "name": "fragments_on_an_image",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Parti\u00f3 de m\u00ed un barco llev\u00e1ndome": {
+        "Name": "Parti\u00f3 de m\u00ed un barco llev\u00e1ndome",
+        "name": "partio_de_mi_un_barco_llevandome",
+        "isPublic": true,
+        "isParent": false,
+        "isLastOfGroup": false
+    },
+    "Drowning Language": {
+        "Name": "Drowning Language",
+        "name": "drowning_language",
+        "isPublic": true,
+        "isParent": true,
+        "isLastOfGroup": false,
+        "Drowning Language I": {
+            "Name": "Drowning Language I",
+            "name": "drowning_language_i",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Drowning Language II": {
+            "Name": "Drowning Language II",
+            "name": "drowning_language_ii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Drowning Language III": {
+            "Name": "Drowning Language III",
+            "name": "drowning_language_iii",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Drowning Language IV": {
+            "Name": "Drowning Language IV",
+            "name": "drowning_language_iv",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Drowning Language V": {
+            "Name": "Drowning Language V",
+            "name": "drowning_language_v",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        },
+        "Drowning Language VI": {
+            "Name": "Drowning Language VI",
+            "name": "drowning_language_vi",
+            "isPublic": true,
+            "isParent": false,
+            "isLastOfGroup": false
+        }
+    }
+}

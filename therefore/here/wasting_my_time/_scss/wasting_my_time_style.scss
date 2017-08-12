@@ -1,0 +1,33 @@
+// compileCompressed: ../css/$1.css
+
+$projectName: #wasting_my_time;
+
+#{$projectName} {
+    & {
+        height: 100%;
+    }
+    & .content {
+        width: 75%;
+        max-width: 960px;
+        background: white;
+        margin: 0 auto;
+        padding-top: 10vh;
+    }
+    & .video {
+        position: relative;
+        padding-bottom: 54.927536%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    & .video {
+        & iframe, & object, & embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
